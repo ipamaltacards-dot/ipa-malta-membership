@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#12345a">
+  <title>IPA Malta | Membership Card</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f4f8;
+      color: #172b46;
+    }
+    header {
+      background: #12345a;
+      color: white;
+      text-align: center;
+      padding: 28px 16px;
+    }
+    .emblem {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 12px;
+      border: 2px solid white;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 21px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    header h1 { margin: 0; font-size: 23px; }
+    header p { margin: 8px 0 0; color: #dce8f5; }
+    main {
+      width: min(92%, 520px);
+      margin: 28px auto;
+    }
+    .welcome, .card {
+      background: white;
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px #172b4612;
+    }
+    .welcome h2 { margin-top: 0; }
+    .membership-card {
+      background: linear-gradient(135deg, #12345a, #245b91);
+      color: white;
+      border-radius: 16px;
+      padding: 24px;
+      min-height: 230px;
+    }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .card-top strong { font-size: 18px; }
+    .card-top span { font-size: 12px; letter-spacing: 1px; }
+    .sample { margin: 20px 0; font-size: 11px; letter-spacing: 2px; }
+    .member-name { font-size: 21px; font-weight: bold; }
+    .member-number { margin-top: 8px; color: #e0ebf7; }
+    .notice {
+      margin-top: 20px;
+      padding: 14px;
+      background: #fff5d9;
+      border-radius: 10px;
+      color: #654b0b;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="emblem">IPA</div>
+    <h1>IPA Malta Section</h1>
+    <p>International Police Association</p>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Digital Membership</h2>
+      <p>Welcome to the IPA Malta digital membership card project.</p>
+      <p>Our aim is to make your membership card accessible on your phone.</p>
+    </section>
+
+    <section class="card">
+      <h2>Your membership card</h2>
+      <div class="membership-card">
+        <div class="card-top">
+          <strong>IPA MALTA</strong>
+          <span>MEMBERSHIP</span>
+        </div>
+        <p class="sample">DIGITAL MEMBERSHIP CARD</p>
+        <div class="member-name">Example Member</div>
+        <div class="member-number">Membership No: SAMPLE-001</div>
+        <p>Section: IPA Malta</p>
+      </div>
+      <div class="notice">
+        <strong>Preview only</strong><br>
+        This is a sample card, not a valid membership credential.
+        Secure member login and verified membership details will be
+        added in a later step.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    IPA Malta Section · Digital Membership Project
+  </footer>
+</body>
+</html>
